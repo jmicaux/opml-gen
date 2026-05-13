@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Create an OPML file from a list of RSS feed URLs.">
+  <meta name="keywords" content="opml builder, opml generator, rss, feeds">
+  <title>OPML generator</title>
+  <link rel="icon" type="image/png" href="assets/opml-icon.png" sizes="32x32">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <section class="intro" aria-labelledby="page-title">
+      <img class="logo" src="assets/opml-icon.png" alt="" width="48" height="48">
+      <div>
+        <h1 id="page-title">OPML generator</h1>
+        <p>Paste a list of RSS feed URLs, one per line, then generate an OPML file you can import into a feed reader.</p>
+      </div>
+    </section>
+
+    <form class="generator" id="generator-form">
+      <label for="feeds">RSS feed URLs</label>
+      <textarea id="feeds" name="feeds" rows="12" spellcheck="false">http://www.theverge.com/rss/index.xml
+https://techcrunch.com/feed/
+http://feeds.mashable.com/Mashable
+http://www.engadget.com/rss.xml</textarea>
+
+      <div class="controls">
+        <label class="field">
+          <span>OPML title</span>
+          <input id="opml-title" name="title" type="text" value="My RSS feeds">
+        </label>
+        <button type="submit">Generate</button>
+      </div>
+    </form>
+
+    <section class="result" aria-labelledby="result-title">
+      <div class="result-header">
+        <h2 id="result-title">Generated OPML</h2>
+        <div class="actions">
+          <button type="button" id="copy-button" disabled>Copy</button>
+          <a class="button-link is-disabled" id="download-link" href="#" download="feeds.opml" aria-disabled="true">Download</a>
+        </div>
+      </div>
+      <p class="status" id="status" role="status">No OPML generated yet.</p>
+      <pre><code id="output"></code></pre>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
