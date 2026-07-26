@@ -1,8 +1,7 @@
 # OPML generator
 
-Static rebuild of the old `opml-gen.ovh` page.
-
-It generates an OPML 2.0 file in the browser from a list of RSS feed URLs.
+Static rebuild of the old `opml-gen.ovh` page. It generates an OPML 2.0 file in the browser
+from a list of RSS feed URLs.
 
 ![stack](https://img.shields.io/badge/stack-vanilla_JS-f7df1e) ![no build](https://img.shields.io/badge/build-none-brightgreen) ![output](https://img.shields.io/badge/output-OPML_2.0-3b82f6)
 
@@ -10,16 +9,26 @@ If you enjoy this tool, you can support it:
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy_me_a_coffee-ffdd00?style=flat-square&logo=buymeacoffee&logoColor=1a1a1a)](https://buymeacoffee.com/jmicaux)
 
-## Files
+## Features
 
-- `index.html`: page markup
-- `styles.css`: page styles
-- `app.js`: OPML generation logic
-- `assets/opml-icon.png`: icon recovered from the Internet Archive
+- **Paste and generate** — turn a list of RSS feed URLs into a valid OPML 2.0 file, entirely
+  in the browser.
+- **Fully static** — no build step, no server, no dependencies.
 
-## Usage
+## Install & usage
 
 Open `index.html` in a browser. No server is required.
+
+## Project structure
+
+```
+opml-gen/
+├── index.html   # page markup
+├── styles.css   # page styles
+├── app.js       # OPML generation logic
+├── assets/      # opml-icon.png (recovered from the Internet Archive)
+└── README.md
+```
 
 ## License
 
