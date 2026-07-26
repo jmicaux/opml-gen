@@ -18,7 +18,8 @@ If you enjoy this tool, you can support it:
 
 ## Install & usage
 
-Open `index.html` in a browser. No server is required.
+Use it right away on the [live preview](https://jmicaux.github.io/opml-gen/) — nothing to
+install. To run it locally, open `index.html` in a browser; no server is required.
 
 ## Project structure
 
