@@ -6,6 +6,8 @@ Static rebuild of my old `opml-gen.ovh` website.  A lightweight web app that gen
 
 **🔗 Live preview: [jmicaux.github.io/opml-gen](https://jmicaux.github.io/opml-gen/)**
 
+![OPML Generator — paste RSS feed URLs and generate an OPML file](screenshot.png)
+
 If you enjoy this tool, you can support it:
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy_me_a_coffee-ffdd00?style=flat-square&logo=buymeacoffee&logoColor=1a1a1a)](https://buymeacoffee.com/jmicaux)
