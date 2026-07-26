@@ -34,6 +34,12 @@ opml-gen/
 └── README.md
 ```
 
+## Quality
+
+This project follows a documented quality review process covering accessibility, security, performance and code quality.
+
+See [QUALITY.md](QUALITY.md).
+
 ## License
 
 Licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE.md): you are free to fork,
