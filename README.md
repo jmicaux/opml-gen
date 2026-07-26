@@ -4,6 +4,8 @@ Static rebuild of my old `opml-gen.ovh` website.  A lightweight web app that gen
 
 ![stack](https://img.shields.io/badge/stack-vanilla_JS-f7df1e) ![no build](https://img.shields.io/badge/build-none-brightgreen) ![output](https://img.shields.io/badge/output-OPML_2.0-3b82f6)
 
+**🔗 Live preview: [jmicaux.github.io/opml-gen](https://jmicaux.github.io/opml-gen/)**
+
 If you enjoy this tool, you can support it:
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy_me_a_coffee-ffdd00?style=flat-square&logo=buymeacoffee&logoColor=1a1a1a)](https://buymeacoffee.com/jmicaux)
