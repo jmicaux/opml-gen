@@ -21,6 +21,12 @@ If you enjoy this tool, you can support it:
 
 Open `index.html` in a browser. No server is required.
 
+## License
+
+Licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE.md): you are free to fork,
+modify and share this project **for noncommercial purposes**, as long as you keep the
+attribution (`Required Notice: Copyright jmicaux`). Commercial use is not permitted.
+
 ## Credits
 
 Built with the help of [Claude](https://claude.ai/code).
