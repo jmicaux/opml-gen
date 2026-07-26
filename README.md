@@ -1,7 +1,6 @@
 # OPML generator
 
-Static rebuild of the old `opml-gen.ovh` page. It generates an OPML 2.0 file in the browser
-from a list of RSS feed URLs.
+Static rebuild of my old `opml-gen.ovh` website.  A lightweight web app that generates an OPML 2.0 file in your browser from a list of RSS feed URLs. 
 
 ![stack](https://img.shields.io/badge/stack-vanilla_JS-f7df1e) ![no build](https://img.shields.io/badge/build-none-brightgreen) ![output](https://img.shields.io/badge/output-OPML_2.0-3b82f6)
 
